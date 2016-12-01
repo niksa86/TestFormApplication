@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TestFormApplication</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_phone">Phone number</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_displayed_message">Test application</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="John">John</string>
+    <string name="application_loaded">Application is idle</string>
+    <string-array name="email_array">
+        <item>Home</item>
+        <item>Work </item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

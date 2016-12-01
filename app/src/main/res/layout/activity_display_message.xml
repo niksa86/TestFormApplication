@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dnikolic.testformapplication.DisplayMessageActivity">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="48dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:layout_editor_absoluteY="0dp"
+    tools:ignore="MissingConstraints"
+    android:layout_marginEnd="16dp"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginStart="16dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginLeft="16dp">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is test application"
+        android:layout_marginLeft="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/espresso_icon"
+        android:layout_width="200dp"
+        android:layout_height="193dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/espresso_lockup1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>
